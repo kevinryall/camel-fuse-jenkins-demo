@@ -33,7 +33,7 @@ try {
 node {
 
   stage('Checkout'){
-    git 'http://localhost:3000/gogsadmin/camel-fuse-jenkins-demo.git'
+    git 'https://github.com/kevinryall/camel-fuse-jenkins-demo.git'
   } //end checkout
 
   def helper = load 'helper.groovy'
