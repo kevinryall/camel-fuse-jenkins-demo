@@ -15,7 +15,7 @@
  *   implied.  See the License for the specific language governing
  *   permissions and limitations under the License.
  */
-
+pipeline {
 def containerName = ""
 try {
   containerName = CONTAINER_NAME
@@ -101,4 +101,5 @@ EOF"""
 
   } //end release
 
+}
 }
